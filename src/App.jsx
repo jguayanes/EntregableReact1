@@ -32,11 +32,7 @@ function App() {
 return (
     <main className={`phrase__container ${image}`}>
       <h1>INFOGALAX</h1>
-      <br />
-      <br />
       <ChangePhrase phrases={pharses.phrase} author={pharses.author}/>
-      <br />
-      <br />
       <Buton handleChange={handleChange}/>
       {<img src={planet} />}
     </main>

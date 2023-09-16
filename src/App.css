@@ -32,14 +32,13 @@ h1{
     top: 50px;
 }
 img{
-    position: relative;
-    bottom: 0px;
-    z-index: 1;
+    width: 330px;
 }
-@media screen and (max-width: 630px) {
-    main {
-        overflow-x: hidden;
-    }
+
+
+main{
+    display: grid;
+    gap: 50px;
 }
 
 
